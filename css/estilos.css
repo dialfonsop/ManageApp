@@ -1,0 +1,506 @@
+/*Se utiliza el navegador Google Chrome en Windows 10. 
+    En la sección de 01 02 03 se usó botones en vez de usar inputs, se usa botones porque en el Figma así lo decía
+    y pedía.
+    Se usa la imagen del diagrama de torta que la plantilla tenía.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding:0px;
+    font-family: 'Be Vietnam Pro';
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px;
+}
+
+.contenedorA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px;
+}
+
+.contenedorB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px;
+}
+
+
+
+.hamburguesa{
+    display:none;
+}
+
+.opciones a{
+    margin: 10px;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 120px;
+}
+
+a{
+    text-decoration: none;
+    color: #242E52;
+}
+
+a:hover{
+    color: #242E52;
+    opacity: 0.6;
+}
+
+button{
+    color: white;
+    background-color: #8B48BF;
+    width: 134px;
+    height: 44px;
+    border-radius: 20px;
+    border: 1px solid #8B48BF;
+}
+
+
+button:hover{
+    cursor:pointer;
+    background: rgba(139, 72, 191, 0.7);
+    border: 1px solid rgba(139, 72, 191, 0.7);
+}
+
+h1{
+    font-size: 58px;
+    color:#232C50;
+}
+
+h2{
+    font-size: 36px;
+    color: #232851;
+}
+
+h3{
+    color:#000000;
+    font-size: 16.5584px;
+}
+
+h4{
+    color: #232851;
+}
+
+p{
+    color: #B3B2B7;
+    
+}
+
+.carta p{
+    text-align: center;
+    margin: 15px;
+}
+
+#tit{
+    color:#242E53;
+    font-size: 39.2143px;
+}
+
+.ubicacion{
+    width: 363px;
+    margin:30px 0px;
+}
+
+.ubicacionIzquierda{
+    width: 358px;
+    margin:30px 0px;
+}
+
+.espacio{
+    margin:0px;
+}
+
+.segmento{
+    position:relative;
+    bottom: 5px;
+}
+
+
+.izquierdo{
+    height:500px;
+    width:40%;
+}
+
+.izquierdo h2{
+    width:450px;
+}
+
+.derecha{
+    display:flex;
+    flex-direction: column;
+    height: 510px;
+    width: 50%;
+}
+
+.lista{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.btnLista{
+    width: 69px;
+    height: 43px;
+    position:relative;
+    left: 15px;
+}
+.tituloLista{
+    color:#323851;
+}
+
+.contBtn{
+    margin:10px;
+}
+
+.contFicha{
+    margin:12px;
+    padding-top: 8px;
+}
+
+.ubicacion p{
+    width:363px;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.parteCartas{
+    display:flex;
+    flex-direction: row;
+    background-color: #FAFAFA;
+}
+
+.parteBoton{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.avatar{
+    text-align: center;
+    position:relative;
+    bottom: 35px;
+}
+
+.avatar img{
+    width: 70px;
+}
+
+.carta h4{
+    text-align: center;
+}
+
+.footSup{
+    background-color: #8B48BF;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding:75px;
+}
+
+
+.parteFoot{
+    
+    margin: 180px 0 0;
+}
+
+.footSup h2{
+    margin: 20px;
+    width: 370px;
+    color: white;
+}
+
+.parteBotonFoot{
+    padding-right: 10px;
+}
+
+.parteBotonFoot button{
+    background-color: white;
+    color:#8B48BF;
+}
+
+.parteInfFoot{
+    background-color: #1E1E26;
+    height: 247px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+
+.segundaColumna nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.terceraColumna nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuartaColumna input{
+    width: 240px;
+    height: 44px;
+    border-radius: 50px;
+}
+
+#btnGo{
+    width: 63px;
+    height: 42px;
+    text-align: center;
+}
+
+.primeraColumna{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconos{
+    padding-bottom: 35px;
+}
+
+.iconos img{
+    margin: 3px;
+    cursor: pointer;
+}
+
+
+.segundaColumna{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.segundaColumna nav a{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.terceraColumna{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.terceraColumna nav a{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.cuartaColumna{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+#botonSup button{
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.derechos h4{
+    color: #8C8C94;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.opcionesFoot{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.segundaColumna{
+    margin-right: 250px;
+}
+
+
+@media (max-width: 480px){
+    header{
+        width: 100vw;
+        
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 50px 50px;
+    }
+
+    .contenedorA{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contenedorB{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 120px;
+        text-align: center;
+    }
+
+    .izquierdo {
+        height: 350px;
+        width: 480px;
+        margin-top: 50px;
+    }
+
+    .derecha{
+        width: 470px;
+    }
+
+   
+    .ubicacionIzquierda{
+        width: 365px;
+        margin:30px 38px;
+    }
+
+    .ubicacionIzquierda h4{
+        font-size: 16px;
+        align-items: center;
+    }
+
+    .izquierdo h2{
+        font-size: 28px;
+    }
+
+    .diagrama{
+        margin-bottom: 110px;
+        padding-bottom: 100px;
+    }
+
+    .diagrama img{
+        width: 350px;
+    }
+
+    .opciones{
+        display: none;
+    }
+
+    #botonSup{
+        display: none;
+    }
+
+    .hamburguesa{
+        display: flex;
+    }
+
+
+
+    .ubicacion h3{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .ubicacion p{
+        margin: 0 -75px;
+        text-align: justify;
+    }
+
+    .tituloLista{
+        width:280px;
+    }
+
+    .segmento h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .espacio{
+        text-align: center;
+    }
+
+    #avatar1{
+        display:none;
+    }
+
+    #avatar2{
+        display:none;
+    }
+    .contenedor2{
+        margin: 100px 50px;
+    }
+
+    .centrar{
+        width: 375px;
+    }
+
+    .footSup{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        height:320px;
+    }
+    .footSup h2{
+        text-align: center;
+        width: 304px;
+    }
+
+    .parteBotonFoot{
+        margin-bottom: 25px;
+    }
+
+    .parteInfFoot{
+        display:flex;
+        flex-direction: column-reverse;
+        height: 600px;
+    }
+
+    form{
+        width:420px;
+    }
+
+    .cuartaColumna input{
+        width: 280px;
+    }
+
+    .derechos{
+        position:relative;
+        top:450px;
+        right:100px;
+    }
+    .derechos h4{
+        padding-bottom: 0;
+        color: #8C8C94;
+    }
+
+    .segundaColumna{
+        margin: 50px 75px;
+    }
+
+    .terceraColumna{
+        margin: 50px 0 0 100px;
+    }
+
+    .primeraColumna{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    .iconos img {
+
+        margin:0 30px;
+    }
+}
